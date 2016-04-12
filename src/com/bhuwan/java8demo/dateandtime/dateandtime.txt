@@ -1,0 +1,30 @@
+
+- Java 7 java.uti.Date is mutable
+- Java 8 java.time is immutable
+- Instant class - immutable : Nano second precison
+	- Instant.MIN -> billion years ago
+	- Instant.MAX -> billion years after
+	- Instant.now() -> current instant
+- Duration class
+	- Duration.between(Instant.now(),Instant.now())
+	- 
+
+- LocalDate class : Day percision
+	- LocalDate.now()
+- Period - is like Duration
+- ChronoUnit : In case of temporal, we can use ChronoUnit
+- TemporalAdjusters - Userful to add or substract an amount of time to an Instant or a LocalDate
+
+- LocalTime Class: time percision
+	- LocalTime.now()
+	- LocalTime.of(5,34)
+
+- Zone Time : 
+	- ZoneId class
+	- ZonedDateTime class
+	
+- Format a date:
+	- DateTimeFormatter
+	- 
+
+
