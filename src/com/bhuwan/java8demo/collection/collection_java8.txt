@@ -1,0 +1,4 @@
+list.forEach 
+list.removeIf	
+list.replaceAll
+list.sort
