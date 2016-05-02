@@ -1,0 +1,8 @@
+theree important methods have been added.
+
+1. sum()
+2. max()
+3. min()
+
+new Long.hashCode(longValue)
+
