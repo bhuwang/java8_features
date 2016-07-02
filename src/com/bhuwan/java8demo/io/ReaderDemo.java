@@ -20,10 +20,10 @@ public class ReaderDemo {
     public static void main(String[] args) {
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(ReaderDemo.class.getResourceAsStream("cities.txt")));
                 Stream<String> stream = reader.lines();) {
-            stream.filter(line -> line.contains("Pokhara")).findFirst().ifPresent(System.out::println);
+            stream.filter(line -> line.contains("Jumla")).findFirst().ifPresent(System.out::println);
         } catch (IOException e) {
             e.printStackTrace();
-        } 
+        }
     }
 
 }

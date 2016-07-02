@@ -28,7 +28,7 @@ public class ComparatorUsingMethodReference {
         List<Integer> list = Arrays.asList(12, 34, 544, 13, 2, 65);
         Collections.sort(list, comparator);
 
-        // CASE 1: classical way
+        // CASE 1: lamda way without method reference
         list.forEach(integer -> System.out.println(integer));
 
         // CASE 2: lamda using method reference

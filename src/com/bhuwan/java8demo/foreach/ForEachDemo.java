@@ -55,8 +55,11 @@ public class ForEachDemo {
         // 2.
         numbers.forEach((Integer i) -> System.out.println("Lamda ii way of traversing: " + i));
 
-        // 3
-        numbers.forEach(i -> System.out.println("lamda iii way of traversing: "));
+        // 3.
+        numbers.forEach(i -> System.out.println("lamda iii way of traversing: " + i));
+
+        // 4.
+        numbers.forEach(System.out::println);
 
     }
 }
