@@ -7,6 +7,8 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
+ * Used to flatten the nested list elements
+ * 
  * @author bhuwan
  *
  */
